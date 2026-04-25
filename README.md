@@ -1,10 +1,10 @@
-# Galagino ported to platformio - now with 17 games!
+# Galagino ported to platformio - now with 21 games!
 
 This repo is a port of Till Harbaum's awesome [Galaga emulator](https://github.com/harbaum/galagino) ported to platformio.
 This port is NOT by the original author, so please do not bother him with issues.
 
 The games Bombjack, Mr. Do! and Pengo I got from [Alby1970](https://github.com/Alby1970).
-The game Gyruss, I got from [SurvivalHacking](https://github.com/SurvivalHacking/galagino3).
+The gameS Gyruss, Ms. Pacman, Space Invaders and Time Pilot I got from [SurvivalHacking](https://github.com/SurvivalHacking/galagino3).
 
 This solution is an easy way to build a galagino arcade machine. No need of a 3D printer and PCB´s. Just buy the hardware listed below.
 
@@ -30,6 +30,10 @@ This solution is an easy way to build a galagino arcade machine. No need of a 3D
 ![Bagman screenshot](images/bagman.png)
 ![Pengo screenshot](images/pengo.png)
 ![Gyruss screenshot](images/gyruss.png)
+![Galaxian screenshot](images/galaxian.jpg)	
+![Ms.Pacman screenshot](images/mspacman.png)
+![Space Invaders screenshot](images/invaders.png)
+![Time Pilot screenshot](images/timeplt.png)
 
 ## Hardware
 
@@ -81,6 +85,10 @@ Like in the original from Till Harbaum's Galaga emulator, download these files:
     * [Bagman](https://www.google.com/search?q="bagmanm2.zip"+download) (Important: filename with "m2")
     * [Pengo](https://www.google.com/search?q=pengo2u.zip+arcade+rom) (Important: filename with "2u")
     * [Gyruss](https://www.google.com/search?q=gyruss.zip+arcade+rom)
+    * [Ms. Pacman](https://www.google.com/search?q=mspacman.zip+arcade+rom)
+    * [Galaxian](https://www.google.com/search?q=galaxian.zip+arcade+rom)
+    * [Space Invaders](https://www.google.com/search?q=invaders.zip+arcade+rom)
+    * [Time Pilot](https://www.google.com/search?q=timeplt.zip+arcade+rom)
 
 Galagino uses code that is not freely available and thus not included in this repository. Preparing the firmware thus consists of a few additional steps:
 
@@ -119,6 +127,7 @@ In Attract mode, the machine cycles through all games if you do not touch the jo
 ## Limitations
 
 Gyruss: The sound cpu I8039 is missing - so there is no drum sound. Sometimes sprites appear that are no longer in use.
+Time Pilot: minor glitch on clouds graphics
 
 Because of no free GPIO´s, the following buttons are not connected and do not work:
 * Power board: Light button / headphone jack
