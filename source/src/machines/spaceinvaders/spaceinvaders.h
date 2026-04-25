@@ -1,10 +1,6 @@
 #ifndef SPACEINVADERS_H
 #define SPACEINVADERS_H
 
-#ifndef ENABLE_SPACE
-#error "ENABLE_SPACE mancante nel config.h!"
-#endif
-
 #include <pgmspace.h>
 #include "spaceinvaders_logo.h"
 #include "spaceinvaders_rom.h"
