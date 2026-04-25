@@ -19,6 +19,11 @@
 #define ENABLE_BAGMAN
 #define ENABLE_PENGO
 #define ENABLE_GYRUSS
+#define ENABLE_MSPACMAN
+#define ENABLE_SPACE
+#define ENABLE_GALAXIAN
+#define ENABLE_TIMEPLT
+
 
 #ifdef ENABLE_PACMAN  
   #include "machines/pacman/pacman.h"
@@ -88,6 +93,23 @@
   #include "machines/gyruss/gyruss.h"
 #endif
 
+#ifdef ENABLE_MSPACMAN  
+  #include "machines/mspacman/mspacman.h"
+#endif
+
+#ifdef ENABLE_SPACE 
+  #include "machines/spaceinvaders/spaceinvaders.h"
+#endif
+
+#ifdef ENABLE_GALAXIAN 
+  #include "machines/galaxian/galaxian.h"
+#endif
+
+#ifdef ENABLE_TIMEPLT 
+  #include "machines/timeplt/timeplt.h"
+#endif
+
+
 // change machine order is possible here...
 machineBase *machines[] = {
 #ifdef ENABLE_PACMAN  
@@ -139,7 +161,19 @@ machineBase *machines[] = {
   new pengo(),
 #endif
 #ifdef ENABLE_GYRUSS 
-  new gyruss()
+  new gyruss(),
+#endif
+#ifdef ENABLE_MSPACMAN  
+  new mspacman(),
+#endif
+#ifdef ENABLE_SPACE 
+  new spaceinvaders(),
+#endif
+#ifdef ENABLE_GALAXIAN 
+  new galaxian(),
+#endif
+#ifdef ENABLE_TIMEPLT 
+  new timeplt()
 #endif
 };
 
