@@ -19,6 +19,10 @@ call conv_mrdo.bat
 call conv_bagman.bat
 call conv_pengo.bat
 call conv_gyruss.bat
+call conv_mspacman.bat
+call conv_galaxian.bat
+call conv_invaders.bat
+call conv_timeplt.bat
 
 echo ---- Important
 echo ---- Please check if any errors occured!
