@@ -33,6 +33,9 @@ This solution is an easy way to build a galagino arcade machine. No need of a 3D
 ![Pengo screenshot](images/pengo.png)
 ![Gyruss screenshot](images/gyruss.png)
 ![Galaxian screenshot](images/galaxian.png)	
+![Ms.Pacman screenshot](images/mspacman.png)
+![Space Invaders screenshot](images/invaders.png)
+![Time Pilot screenshot](images/timeplt.png)
 
 ## Hardware
 
