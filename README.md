@@ -1,4 +1,4 @@
-# Galagino ported to platformio - now with 21 games!
+# Galagino ported to platformio - now with 22 games!
 
 This repo is a port of Till Harbaum's awesome [Galaga emulator](https://github.com/harbaum/galagino) ported to platformio.
 
