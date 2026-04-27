@@ -6,7 +6,7 @@ This port is NOT by the original author, so please do not bother him with issues
 
 The games Bombjack, Mr. Do! and Pengo I got from [Alby1970](https://github.com/Alby1970).
 
-The games Gyruss, Ms. Pacman, Space Invaders and Time Pilot I got from [SurvivalHacking](https://github.com/SurvivalHacking/galagino3).
+The games Gyruss, Ms. Pacman, Space Invaders, Time Pilot and Tutankham I got from [SurvivalHacking](https://github.com/SurvivalHacking/galagino3).
 
 This solution is an easy way to build a galagino arcade machine. No need of a 3D printer and PCB´s. Just buy the hardware listed below.
 
@@ -36,6 +36,7 @@ This solution is an easy way to build a galagino arcade machine. No need of a 3D
 ![Ms.Pacman screenshot](images/mspacman.png)
 ![Space Invaders screenshot](images/invaders.png)
 ![Time Pilot screenshot](images/timeplt.png)
+![Tutankham screenshot](images/tutankham.png)
 
 ## Hardware
 
