@@ -92,6 +92,7 @@ Like in the original from Till Harbaum's Galaga emulator, download these files:
     * [Galaxian](https://www.google.com/search?q=galaxian.zip+arcade+rom)
     * [Space Invaders](https://www.google.com/search?q=invaders.zip+arcade+rom)
     * [Time Pilot](https://www.google.com/search?q=timeplt.zip+arcade+rom)
+    * [Tutankham](https://www.google.com/search?q=tutankhm.zip+arcade+rom)
 
 Galagino uses code that is not freely available and thus not included in this repository. Preparing the firmware thus consists of a few additional steps:
 
