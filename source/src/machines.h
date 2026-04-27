@@ -23,7 +23,7 @@
 #define ENABLE_SPACE
 #define ENABLE_GALAXIAN
 #define ENABLE_TIMEPLT
-
+#define ENABLE_TUTANKHM
 
 #ifdef ENABLE_PACMAN  
   #include "machines/pacman/pacman.h"
@@ -109,6 +109,9 @@
   #include "machines/timeplt/timeplt.h"
 #endif
 
+#ifdef ENABLE_TUTANKHM
+  #include "machines/tutankhm/tutankhm.h"
+#endif
 
 // change machine order is possible here...
 machineBase *machines[] = {
@@ -171,6 +174,9 @@ machineBase *machines[] = {
 #endif
 #ifdef ENABLE_GALAXIAN 
   new galaxian(),
+#endif
+#ifdef ENABLE_TUTANKHM
+  new tutankhm(),
 #endif
 #ifdef ENABLE_TIMEPLT 
   new timeplt()
