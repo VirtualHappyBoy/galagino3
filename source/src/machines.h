@@ -19,6 +19,7 @@
 #define ENABLE_BAGMAN
 #define ENABLE_PENGO
 #define ENABLE_GYRUSS
+#define ENABLE_LADYBUG
 #define ENABLE_MSPACMAN
 #define ENABLE_SPACE
 #define ENABLE_GALAXIAN
@@ -93,6 +94,10 @@
   #include "machines/gyruss/gyruss.h"
 #endif
 
+#ifdef ENABLE_LADYBUG  
+  #include "machines/ladybug/ladybug.h"
+#endif
+
 #ifdef ENABLE_MSPACMAN  
   #include "machines/mspacman/mspacman.h"
 #endif
@@ -165,6 +170,9 @@ machineBase *machines[] = {
 #endif
 #ifdef ENABLE_GYRUSS 
   new gyruss(),
+#endif
+#ifdef ENABLE_LADYBUG  
+  new ladybug(),
 #endif
 #ifdef ENABLE_MSPACMAN  
   new mspacman(),
