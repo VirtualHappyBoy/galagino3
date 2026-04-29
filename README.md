@@ -89,6 +89,7 @@ Like in the original from Till Harbaum's Galaga emulator, download these files:
     * [Bagman](https://www.google.com/search?q="bagmanm2.zip"+download) (Important: filename with "m2")
     * [Pengo](https://www.google.com/search?q=pengo2u.zip+arcade+rom) (Important: filename with "2u")
     * [Gyruss](https://www.google.com/search?q=gyruss.zip+arcade+rom)
+    * [Ladybug](https://www.google.com/search?q=ladybug.zip+arcade+rom)
     * [Ms. Pacman](https://www.google.com/search?q=mspacman.zip+arcade+rom)
     * [Galaxian](https://www.google.com/search?q=galaxian.zip+arcade+rom)
     * [Space Invaders](https://www.google.com/search?q=invaders.zip+arcade+rom)
