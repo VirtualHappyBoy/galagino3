@@ -191,11 +191,23 @@ void Video::flip(char flipY, char flipX) {
     write8(0x08);
 #else
   if (flipY && flipX)
-    write8(0x40);
+    #ifdef TFT_VFLIP
+      write8(0x80);
+    #else
+      write8(0x40);
+    #endif
   else if (flipY)
-    write8(0x00);
+    #ifdef TFT_VFLIP
+      write8(0xc0);
+    #else
+      write8(0x00);
+    #endif
   else if (flipX)
-    write8(0x80);
+    #ifdef TFT_VFLIP
+      write8(0x40);
+    #else
+      write8(0x80);
+    #endif
 #endif
   writeCommand(0x2C); // Write to RAM, same command for ili9341 and st7789 
 
@@ -213,7 +225,11 @@ void Video::flipReset(char flipY, char flipX) {
 #ifdef TFT_ILI9341
   write8(TFT_MAC);
 #else
-  write8(0xc0);
+    #ifdef TFT_VFLIP
+      write8(0x00);
+    #else
+      write8(0xc0);
+    #endif
 #endif
   writeCommand(0x2C); // Write to RAM, same command for ili9341 and st7789 
 
@@ -277,3 +293,4 @@ void Video::write8(uint8_t data) {
   transaction.tx_data[0] = data;
   spi_device_transmit(handle, &transaction);
 }
+
